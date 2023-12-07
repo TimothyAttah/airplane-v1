@@ -13,12 +13,14 @@ import gulf6501 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
 import gulf6502 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
 import gulf6503 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
 import gulf6504 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6505 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int6.jpg';
-import gulf6506 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int7.jpg';
-import gulf6507 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int9.jpg';
 import gulf6508 from '../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM (1).png';
-import gulf6509 from '../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM (1).png';
-import gulf6510 from '../../assets/GulfstreamG650ER_snNA-Int1.jpg';
+
+// import gulf6505 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int6.jpg';
+// import gulf6506 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int7.jpg';
+// import gulf6507 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int9.jpg';
+
+// import gulf6509 from '../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM (1).png';
+// import gulf6510 from '../../assets/GulfstreamG650ER_snNA-Int1.jpg';
 
 const initialState = {
   trendingAircrafts: [
