@@ -54,7 +54,7 @@ export const avionicsData = [
   '1 Honeywell LP-860 LSS',
 ];
 
-const TrendingAircraftFive = () => {
+const LatestAircraftEight = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
@@ -62,12 +62,12 @@ const TrendingAircraftFive = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2004 Embraer ERJ-145LR
+            1975 Warrior PA-28-151
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $49,950,000
+            $81,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -84,7 +84,7 @@ const TrendingAircraftFive = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Mabel Matthew</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -98,7 +98,7 @@ const TrendingAircraftFive = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2004 Embraer ERJ-145LR</h3>
+          <h3>1975 Warrior PA-28-151</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
@@ -107,8 +107,7 @@ const TrendingAircraftFive = () => {
                   Aviatrade Incorporated
                 </Link>
               </p>
-              <h5>Philip Rushton</h5>
-              <p>88 East Main St Mendham New Jersey (USA) 07945</p>
+              <h5>Mabel Matthew</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -145,7 +144,7 @@ const TrendingAircraftFive = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$49,950,000</h6>
+                <h6>$81,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -198,4 +197,4 @@ const TrendingAircraftFive = () => {
   );
 };
 
-export default TrendingAircraftFive;
+export default LatestAircraftEight;

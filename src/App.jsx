@@ -15,6 +15,19 @@ import TrendingAircraftFive from './pages/aircraft/modules/trendingAircrafts/Tre
 import TrendingAircraftSix from './pages/aircraft/modules/trendingAircrafts/TrendingAircraftOneSix';
 import TrendingAircraftSeven from './pages/aircraft/modules/trendingAircrafts/TrendingAircraftOneSeven';
 import TrendingAircraftEight from './pages/aircraft/modules/trendingAircrafts/TrendingAircraftOneEight';
+import HomeAircraftOne from './pages/aircraft/modules/homeAircrafts/HomeAircraftOne';
+import HomeAircraftTwo from './pages/aircraft/modules/homeAircrafts/HomeAircraftTwo';
+import HomeAircraftThree from './pages/aircraft/modules/homeAircrafts/HomeAircraftThree';
+import HomeAircraftFour from './pages/aircraft/modules/homeAircrafts/HomeAircraftFour';
+import HomeAircraftFive from './pages/aircraft/modules/homeAircrafts/HomeAircraftFive';
+import LatestAircraftOne from './pages/aircraft/modules/latestAircrafts/LatestAircraftOne';
+import LatestAircraftTwo from './pages/aircraft/modules/latestAircrafts/LatestAircraftTwo';
+import LatestAircraftThree from './pages/aircraft/modules/latestAircrafts/LatestAircraftThree';
+import LatestAircraftFour from './pages/aircraft/modules/latestAircrafts/LatestAircraftFour';
+import LatestAircraftFive from './pages/aircraft/modules/latestAircrafts/LatestAircraftFive';
+import LatestAircraftSix from './pages/aircraft/modules/latestAircrafts/LatestAircraftSix';
+import LatestAircraftSeven from './pages/aircraft/modules/latestAircrafts/LatestAircraftSeven';
+import LatestAircraftEight from './pages/aircraft/modules/latestAircrafts/LatestAircraftEight';
 
 const App = () => {
   return (
@@ -56,9 +69,62 @@ const App = () => {
             path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b88/details'
             element={<TrendingAircraftEight />}
           />
+
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a1/latest/details'
+            element={<LatestAircraftOne />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a2/latest/details'
+            element={<LatestAircraftTwo />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a3/latest/details'
+            element={<LatestAircraftThree />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a4/latest/details'
+            element={<LatestAircraftFour />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a5/latest/details'
+            element={<LatestAircraftFive />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a6/latest/details'
+            element={<LatestAircraftSix />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a7/latest/details'
+            element={<LatestAircraftSeven />}
+          />
+          <Route
+            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a8/latest/details'
+            element={<LatestAircraftEight />}
+          />
           <Route
             path='/aircrafts-for-sale/:jetId/latest/details'
             element={<AircraftLatestDetails />}
+          />
+          <Route
+            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a1/details'
+            element={<HomeAircraftOne />}
+          />
+          <Route
+            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a2/details'
+            element={<HomeAircraftTwo />}
+          />
+          <Route
+            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a3/details'
+            element={<HomeAircraftThree />}
+          />
+          <Route
+            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a4/details'
+            element={<HomeAircraftFour />}
+          />
+          <Route
+            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a5/details'
+            element={<HomeAircraftFive />}
           />
         </Routes>
         <Footer />

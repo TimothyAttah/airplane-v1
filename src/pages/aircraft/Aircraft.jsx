@@ -23,100 +23,110 @@ const Aircraft = () => {
       </Styles.AircraftTittleWrapper>
       <Styles.AircraftImgContainer>
         <Styles.AircraftLeftImgBox>
-          <FadeIn delay={0.2} direction='down'>
-            <Styles.AircraftLeftImgBox>
-              <img src={plane1} alt='' />
-              <Styles.AircraftLabel>
-                <button>Featured aircraft</button>
-                <h5>2019 Citation M2</h5>
-                <FadeIn delay={0.4} direction='up'>
-                  <ul>
-                    <li>Serial Number: 525-1026</li>
-                    <li>Registration No: N1482P</li>
-                    <li>Serial Number: 262 Hrs</li>
-                  </ul>
-                </FadeIn>
-              </Styles.AircraftLabel>
-            </Styles.AircraftLeftImgBox>
-          </FadeIn>
+          <Link to='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a1/details'>
+            <FadeIn delay={0.2} direction='down'>
+              <Styles.AircraftLeftImgBox>
+                <img src={plane1} alt='' />
+                <Styles.AircraftLabel>
+                  <button>Featured aircraft</button>
+                  <h5>2019 Citation M2</h5>
+                  <FadeIn delay={0.4} direction='up'>
+                    <ul>
+                      <li>Serial Number: 525-1026</li>
+                      <li>Registration No: N1482P</li>
+                      <li>Hours: 262 Hrs</li>
+                    </ul>
+                  </FadeIn>
+                </Styles.AircraftLabel>
+              </Styles.AircraftLeftImgBox>
+            </FadeIn>
+          </Link>
         </Styles.AircraftLeftImgBox>
 
         <Styles.AircraftRightImgBox>
-          <Styles.AircraftSmallImgBox>
-            <FadeIn delay={0.2} direction='left'>
-              <Styles.AircraftSmallImgBox>
-                <img src={plane2} alt='' />
-                <Styles.AircraftLabel>
-                  <button>Featured aircraft</button>
-                  <h5>1987 Boeing 737</h5>
-                  <FadeIn delay={0.4} direction='up'>
-                    <ul>
-                      <li>Serial Number: 23066</li>
-                      <li>Registration No: 306AL</li>
-                      <li>Serial Number: 51467 Hrs</li>
-                    </ul>
-                  </FadeIn>
-                </Styles.AircraftLabel>
-              </Styles.AircraftSmallImgBox>
-            </FadeIn>
-          </Styles.AircraftSmallImgBox>
+          <Link to='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a2/details'>
+            <Styles.AircraftSmallImgBox>
+              <FadeIn delay={0.2} direction='left'>
+                <Styles.AircraftSmallImgBox>
+                  <img src={plane2} alt='' />
+                  <Styles.AircraftLabel>
+                    <button>Featured aircraft</button>
+                    <h5>1987 Boeing 737</h5>
+                    <FadeIn delay={0.4} direction='up'>
+                      <ul>
+                        <li>Serial Number: 23066</li>
+                        <li>Registration No: 306AL</li>
+                        <li>Serial Number: 51467 Hrs</li>
+                      </ul>
+                    </FadeIn>
+                  </Styles.AircraftLabel>
+                </Styles.AircraftSmallImgBox>
+              </FadeIn>
+            </Styles.AircraftSmallImgBox>
+          </Link>
 
-          <Styles.AircraftSmallImgBox>
-            <FadeIn delay={0.4} direction='left'>
-              <Styles.AircraftSmallImgBox>
-                <img src={plane3} alt='' />
-                <Styles.AircraftLabel>
-                  <button>Featured aircraft</button>
-                  <h5>2007 Citation X</h5>
-                  <FadeIn delay={0.4} direction='up'>
-                    <ul>
-                      <li>Serial Number: 750 0279</li>
-                      <li>Registration No: N982DW</li>
-                      <li>Serial Number: 7060 Hrs</li>
-                    </ul>
-                  </FadeIn>
-                </Styles.AircraftLabel>
-              </Styles.AircraftSmallImgBox>
-            </FadeIn>
-          </Styles.AircraftSmallImgBox>
+          <Link to='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a3/details'>
+            <Styles.AircraftSmallImgBox>
+              <FadeIn delay={0.4} direction='left'>
+                <Styles.AircraftSmallImgBox>
+                  <img src={plane3} alt='' />
+                  <Styles.AircraftLabel>
+                    <button>Featured aircraft</button>
+                    <h5>2007 Citation X</h5>
+                    <FadeIn delay={0.4} direction='up'>
+                      <ul>
+                        <li>Serial Number: 750 0279</li>
+                        <li>Registration No: N982DW</li>
+                        <li>Serial Number: 7060 Hrs</li>
+                      </ul>
+                    </FadeIn>
+                  </Styles.AircraftLabel>
+                </Styles.AircraftSmallImgBox>
+              </FadeIn>
+            </Styles.AircraftSmallImgBox>
+          </Link>
 
-          <Styles.AircraftSmallImgBox>
-            <FadeIn delay={0.6} direction='left'>
-              <Styles.AircraftSmallImgBox>
-                <img src={plane4} alt='' />
-                <Styles.AircraftLabel>
-                  <button>Featured aircraft</button>
-                  <h5>2009 Learjet 60XR</h5>
-                  <FadeIn delay={0.4} direction='up'>
-                    <ul>
-                      <li>Serial Number: 60-368</li>
-                      <li>Registration No: 104GB</li>
-                      <li>Serial Number: 2421 Hrs</li>
-                    </ul>
-                  </FadeIn>
-                </Styles.AircraftLabel>
-              </Styles.AircraftSmallImgBox>
-            </FadeIn>
-          </Styles.AircraftSmallImgBox>
+          <Link to='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a4/details'>
+            <Styles.AircraftSmallImgBox>
+              <FadeIn delay={0.6} direction='left'>
+                <Styles.AircraftSmallImgBox>
+                  <img src={plane4} alt='' />
+                  <Styles.AircraftLabel>
+                    <button>Featured aircraft</button>
+                    <h5>2009 Learjet 60XR</h5>
+                    <FadeIn delay={0.4} direction='up'>
+                      <ul>
+                        <li>Serial Number: 60-368</li>
+                        <li>Registration No: 104GB</li>
+                        <li>Serial Number: 2421 Hrs</li>
+                      </ul>
+                    </FadeIn>
+                  </Styles.AircraftLabel>
+                </Styles.AircraftSmallImgBox>
+              </FadeIn>
+            </Styles.AircraftSmallImgBox>
+          </Link>
 
-          <Styles.AircraftSmallImgBox>
-            <FadeIn delay={0.6} direction='left'>
-              <Styles.AircraftSmallImgBox>
-                <img src={plane5} alt='' />
-                <Styles.AircraftLabel>
-                  <button>Featured aircraft</button>
-                  <h5>1998 Falcon 900EX</h5>
-                  <FadeIn delay={0.4} direction='up'>
-                    <ul>
-                      <li>Serial Number: 23066</li>
-                      <li>Registration No: 306AL</li>
-                      <li>Serial Number: 51467 Hrs</li>
-                    </ul>
-                  </FadeIn>
-                </Styles.AircraftLabel>
-              </Styles.AircraftSmallImgBox>
-            </FadeIn>
-          </Styles.AircraftSmallImgBox>
+          <Link to='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a5/details'>
+            <Styles.AircraftSmallImgBox>
+              <FadeIn delay={0.6} direction='left'>
+                <Styles.AircraftSmallImgBox>
+                  <img src={plane5} alt='' />
+                  <Styles.AircraftLabel>
+                    <button>Featured aircraft</button>
+                    <h5>1998 Falcon 900EX</h5>
+                    <FadeIn delay={0.4} direction='up'>
+                      <ul>
+                        <li>Serial Number: 23066</li>
+                        <li>Registration No: 306AL</li>
+                        <li>Serial Number: 51467 Hrs</li>
+                      </ul>
+                    </FadeIn>
+                  </Styles.AircraftLabel>
+                </Styles.AircraftSmallImgBox>
+              </FadeIn>
+            </Styles.AircraftSmallImgBox>
+          </Link>
         </Styles.AircraftRightImgBox>
       </Styles.AircraftImgContainer>
     </Styles.AircraftContainer>

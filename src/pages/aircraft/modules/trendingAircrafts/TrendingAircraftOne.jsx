@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-import { AiFillMessage } from 'react-icons/ai';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
 import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
@@ -11,6 +9,9 @@ import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jp
 import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
+import { Backdrop } from '../../../../components/Backdrop';
+import { Contact } from '../../../../components/contact/Contact';
+import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
   'Exclusive Listing',
@@ -54,6 +55,8 @@ export const avionicsData = [
 ];
 
 const TrendingAircraftThree = () => {
+  const [openForm, setOpenForm] = useState(false);
+
   return (
     <Styles.AircraftTrendingDetailsContainer>
       <div>
@@ -83,11 +86,17 @@ const TrendingAircraftThree = () => {
           <p>Have a question? Send the seller a quick message.</p>
           <h4>Philip Rushton</h4>
 
-          <Styles.AircraftTrendingContactsBox>
-            <AiFillMessage />
+          <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
+            <RiMailLine />
             <h2>Email</h2>
           </Styles.AircraftTrendingContactsBox>
         </Styles.AircraftTrendingContactBox>
+        {openForm && (
+          <>
+            <Backdrop close={() => setOpenForm(false)} />
+            <Contact setOpenForm={setOpenForm} />
+          </>
+        )}
         <Styles.AircraftTrendingDetailsMainWrapper>
           <h3>2019 Gulfstream G650ER</h3>
           <Styles.AircraftTrendingMainDetailsBox>
