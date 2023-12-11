@@ -11,12 +11,20 @@ export const MainHeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   z-index: 999px;
+  margin-bottom: 50px;
   /* border: 2px solid red; */
 
   h1 {
+    font-size: 40px;
     color: ${({ theme }) => theme.colors.textColor};
     span {
       color: ${({ theme }) => theme.colors.mainColor};
+    }
+  }
+
+  @media screen and (max-width: ${({ theme }) => theme.screens.mediumSize}) {
+    h1 {
+      font-size: 32px;
     }
   }
 `;
@@ -29,6 +37,7 @@ export const HeaderNavLinks = styled.ul`
   transition: 0.2s ease all;
 
   a {
+    font-size: 20px;
     color: ${({ theme }) => theme.colors.textColor};
 
     cursor: pointer;

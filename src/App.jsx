@@ -1,5 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import { ToastContainer } from 'react-toastify';
 import Home from './pages/home/Home';
 import { theme } from './themes';
 import { Header } from './components/header/Header';
@@ -129,6 +130,7 @@ const App = () => {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <ToastContainer />
     </ThemeProvider>
   );
 };

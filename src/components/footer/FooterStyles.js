@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
   background-color: ${({ theme }) => theme.colors.mainColor};
   color: ${({ theme }) => theme.colors.textLight};
   border-radius: 5px;
+  margin-top: 50px;
 
   small {
     display: flex;

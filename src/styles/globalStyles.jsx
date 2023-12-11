@@ -64,5 +64,14 @@ img {
     '' /* width: 100%;
   object-fit: cover; */
   }
+
+}
+
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
 }
 `;
