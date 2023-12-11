@@ -15,6 +15,8 @@ export const AircraftTrendingDetailsTitle = styled.h1`
   @media screen and (max-width: ${({ theme }) => theme.screens.smallSize}) {
     font-size: 30px;
     line-height: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 `;
 export const AircraftTrendingDetailsPrice = styled.div`
@@ -25,6 +27,11 @@ export const AircraftTrendingDetailsPrice = styled.div`
   font-size: 30px;
   text-transform: uppercase;
   line-height: 50px;
+
+  @media screen and (max-width: ${({ theme }) => theme.screens.smallSize}) {
+    /* margin-top: 50px; */
+    margin-bottom: -40px;
+  }
 `;
 export const AircraftTrendingDetailsPicsContainer = styled.div`
   display: flex;
@@ -91,6 +98,11 @@ export const AircraftTrendingContactFeaturesBox = styled.div`
 
   @media screen and (max-width: ${({ theme }) => theme.screens.mediumSize}) {
     flex-direction: column;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: ${({ theme }) => theme.screens.smallSize}) {
+    margin-top: -100px;
   }
 `;
 
@@ -243,7 +255,9 @@ export const AircraftTrendingMainDetailsOptions = styled.div`
   }
 `;
 export const AircraftTrendingDetailsSummary = styled.div`
+  /* width: 100%; */
   padding: 0.75rem 1.25rem;
+  /* margin: 0 auto; */
 
   h2 {
     padding: 10px 0;

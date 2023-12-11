@@ -1,5 +1,5 @@
 import { TRENDING_AIRCRAFT } from '../types';
-import { v4 as uuidV4 } from 'uuid';
+// import { v4 as uuidV4 } from 'uuid';
 
 import jet1 from '../../assets/jet1.jpg';
 import jet2 from '../../assets/jet2.jpg';
@@ -29,7 +29,7 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet1,
       jetViews: 95,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b81',
       jetPics: [
         gulf6501,
         gulf6502,
@@ -99,7 +99,8 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet2,
       jetViews: 87,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b82',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -169,7 +170,8 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet3,
       jetViews: 130,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b83',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -239,7 +241,8 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet4,
       jetViews: 163,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b84',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -309,7 +312,8 @@ const initialState = {
       jetType: 'Commercial Aircraft',
       jetPix: jet5,
       jetViews: 95,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b85',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -379,7 +383,8 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet6,
       jetViews: 95,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b86',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -449,7 +454,8 @@ const initialState = {
       jetType: 'Twin Turbo-Prop Aircraft',
       jetPix: jet7,
       jetViews: 95,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b87',
+
       jetPics: [
         gulf6501,
         gulf6502,
@@ -519,7 +525,8 @@ const initialState = {
       jetType: 'Jet Aircraft',
       jetPix: jet8,
       jetViews: 95,
-      jetId: uuidV4(),
+      jetId: '24410089-73f7-4d02-87ee-4f5198fe73b88',
+
       jetPics: [
         gulf6501,
         gulf6502,

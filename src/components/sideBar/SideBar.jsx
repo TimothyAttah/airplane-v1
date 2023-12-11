@@ -1,6 +1,5 @@
 import React from 'react';
 import * as Styles from './SideBarStyles';
-import { NavLink } from '../navlink/NavLink';
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -39,15 +38,15 @@ export const SideBar = ({ setIsOpen }) => {
         <FaTimes onClick={() => setIsOpen(false)} />
       </Styles.CloseSideBarIcon>
       <Styles.SideBarNavLinks>
-        <NavLink to='home' onClick={() => setIsOpen(false)}>
-          <Link to='/'>Home</Link>
-        </NavLink>
-        <NavLink to='aircraft' onClick={() => setIsOpen(false)}>
-          <Link to='/aircrafts-for-sale'>Aircraft</Link>
-        </NavLink>
-        <NavLink to='about' onClick={() => setIsOpen(false)}>
-          <Link to='/'>About</Link>
-        </NavLink>
+        <Link to='/' onClick={() => setIsOpen(false)}>
+          Home
+        </Link>
+        <Link to='/aircrafts-for-sale' onClick={() => setIsOpen(false)}>
+          Aircraft
+        </Link>
+        <Link to='/' onClick={() => setIsOpen(false)}>
+          About
+        </Link>
       </Styles.SideBarNavLinks>
     </Styles.SideBar>
   );

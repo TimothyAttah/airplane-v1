@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavLink } from '../navlink/NavLink';
 import * as Styles from './HeaderStyles';
 import { FaBars } from 'react-icons/fa';
 import { SideBar } from '../sideBar/SideBar';
@@ -15,15 +14,9 @@ export const Header = () => {
           Aircraft<span>Sales</span>
         </h1>
         <Styles.HeaderNavLinks>
-          <NavLink to='home'>
-            <Link to='/'>Home</Link>
-          </NavLink>
-          <NavLink to='aircraft'>
-            <Link to='/aircrafts-for-sale'>Aircraft</Link>
-          </NavLink>
-          <NavLink to='about'>
-            <Link to='/'>About</Link>
-          </NavLink>
+          <Link to='/'>Home</Link>
+          <Link to='/aircrafts-for-sale'>Aircraft</Link>
+          <Link to='/'>About</Link>
         </Styles.HeaderNavLinks>
         <Styles.HeaderBar>
           <FaBars onClick={() => setIsOpen(true)} />
