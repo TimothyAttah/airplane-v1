@@ -29,9 +29,11 @@ export const SideBarNavLinks = styled.ul`
     cursor: pointer;
     padding: 10px 0;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 24px;
     text-transform: uppercase;
+    color: ${({ theme }) => theme.colors.textColor};
     transition: 0.3s ease-in-out all;
+
     :hover {
       background-color: ${({ theme }) => theme.colors.mainColor};
       color: ${({ theme }) => theme.colors.textLight};

@@ -22,6 +22,13 @@ export const AircraftListItemsContainer = styled.div`
     text-decoration: none;
     color: ${({ theme }) => theme.colors.textColor};
   }
+
+  @media screen and (max-width: ${({ theme }) => theme.screens.smallSize}) {
+    /* margin: auto; */
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 export const AircraftListItemsWrapper = styled.div`
   max-width: 200px;
@@ -46,7 +53,7 @@ export const AircraftListItemsWrapper = styled.div`
 
   @media screen and (max-width: ${({ theme }) => theme.screens.smallSize}) {
     margin: auto;
-    max-width: 300px;
+    width: 100%;
   }
 `;
 export const AircraftListImgBox = styled.div`
