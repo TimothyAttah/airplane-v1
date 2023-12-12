@@ -2,11 +2,18 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import kingAir1 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Ext1.jpg';
+import kingAir2 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int1.jpg';
+import kingAir3 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int2.jpg';
+import kingAir4 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int3.jpg';
+import kingAir5 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int4.jpg';
+import kingAir6 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int5.jpg';
+import kingAir7 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int6.jpg';
+import kingAir8 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int7.jpg';
+import kingAir9 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Int8.jpg';
+import kingAir10 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Pan1.jpg';
+import kingAir11 from '../../../../assets/130285_99_KingAirB200_snBB-1663-Pan2.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -14,47 +21,27 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  ' New!! Garmin G1000 NXi Platinum Avionics Suite w/Autoland',
+  'BLR Winglets',
+  'Dual Aft Jump Seats',
+  'Recent Phase 1-4 Inspections',
+  'Recent Prop Overhauls',
+  'Recent Landing Gear Overhaul',
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  'Garmin G1000 NXi',
+  'G1000 NXi Platinum Package',
+  'Garmin Surface Watch',
+  'Garmin GTS 825 TIS',
+  'Collins DME-42',
+  'LumaTechnologies LED Annunciators',
+  'Gear LED annunciator',
+  'Garmin AutoThrottle',
+  'G1000 AutoLand',
 ];
 
-const TrendingAircraftSix = () => {
+const TrendingAircraftEight = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
@@ -62,29 +49,35 @@ const TrendingAircraftSix = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2008 Boeing Business Jet
+            1999 King Air B200 for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $49,950,000
+            Price: Please Email
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={kingAir1} />,
+          <ImgComponent src={kingAir2} />,
+          <ImgComponent src={kingAir3} />,
+          <ImgComponent src={kingAir4} />,
+          <ImgComponent src={kingAir5} />,
+          <ImgComponent src={kingAir6} />,
+          <ImgComponent src={kingAir7} />,
+          <ImgComponent src={kingAir8} />,
+          <ImgComponent src={kingAir9} />,
+          <ImgComponent src={kingAir10} />,
+          <ImgComponent src={kingAir11} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Tim Layton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -98,36 +91,36 @@ const TrendingAircraftSix = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2008 Boeing Business Jet</h3>
+          <h3>1999 King Air B200</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Pollard Aircraft Sales, Inc.
                 </Link>
               </p>
-              <h5>Philip Rushton</h5>
-              <p>88 East Main St Mendham New Jersey (USA) 07945</p>
+              <h5>Tim Layton</h5>
+              {/* <p>88 East Main St Mendham New Jersey (USA) 07945</p> */}
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>1999</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Texas (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Beechcraft</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    BB-1663
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -135,17 +128,17 @@ const TrendingAircraftSix = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    N720AM
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>5102 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$49,950,000</h6>
+                <h6>Please Email </h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -163,15 +156,20 @@ const TrendingAircraftSix = () => {
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>TTSN: 5,102.8</p>
+            <p>TCSN: 6,950</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>Pratt & Whitney PT6A-42</p>
+            <p>TTSN: 5,102.8 / 5,102.8</p>
+            <p>TCSN: 6,950 / 6,950</p>
+            <p>SN: PCE-PJ0290 / PCE-PJ0291</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-            <h4>APU Details</h4>
-            <p>APU on Honeywell MSP</p>
+            <h4>Prop Details</h4>
+            <p>Hartzell HC-E4N-3G</p>
+            <p>SN: HH-1553 / HH-2550</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
         </Styles.AircraftTrendingDetailsFeaturesRightContainer>
         <Styles.AircraftTrendingDetailsSummary>
@@ -198,4 +196,4 @@ const TrendingAircraftSix = () => {
   );
 };
 
-export default TrendingAircraftSix;
+export default TrendingAircraftEight;

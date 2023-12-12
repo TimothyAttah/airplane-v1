@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import airbus1 from '../../../../assets/airbus1.jpg';
+import airbus2 from '../../../../assets/airbus2.jpg';
+import airbus3 from '../../../../assets/airbus3.jpg';
+import airbus4 from '../../../../assets/airbus4.jpg';
+import airbus5 from '../../../../assets/airbus5.jpg';
+import airbus6 from '../../../../assets/airbus6.jpg';
+import airbus7 from '../../../../assets/airbus7.jpg';
+import airbus8 from '../../../../assets/airbus8.jpg';
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -14,47 +17,32 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  '19 Passenger Configuration',
+  'KA-Band High-Speed Internet',
+  'Very Low Hours',
+  'Installed with Four ACTs',
+  'Increased MTOW 77.3 t, MLW 63.9 t & MZFW 60.3 t',
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  'Auto-Program ELT (406 AF Integra)',
+  'Remote Control Panel – Thales (SFE)',
+  'SATCOM Cockpit Voice Interface',
+  'Iridium SATCOM System - L-3 Communications',
+  '4th TRU A/C',
+  'Primary Flight Display (PFD)',
+  'QNH/QFE BARO Setting',
+  'RNP AR / SAAAR capability (STEP 3)',
+  'Integrated Standby Instrument System (ISIS)',
+  'Radio Altitude Automatic Callouts',
+  'Wiring Provision for ATSAW',
+  'iMMR - Honeywell - Install Standard L2.2',
+  'GLS Function on Honeywell iMMR',
+  'ATSU ARINC 623 ATS Applications Compatible with FANS C (Datalink Recording Capable)',
+  'FANS C/4D (CSB9)',
 ];
 
-const TrendingAircraftEight = () => {
+const TrendingAircraftSix = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
@@ -62,29 +50,32 @@ const TrendingAircraftEight = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2008 Eurocopter EC-130-B4
+            2021 Airbus ACJ319neo for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $49,950,000
+            Price: Please Call
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={airbus1} />,
+          <ImgComponent src={airbus2} />,
+          <ImgComponent src={airbus3} />,
+          <ImgComponent src={airbus4} />,
+          <ImgComponent src={airbus5} />,
+          <ImgComponent src={airbus6} />,
+          <ImgComponent src={airbus7} />,
+          <ImgComponent src={airbus8} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Sales Team</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -98,54 +89,56 @@ const TrendingAircraftEight = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2008 Eurocopter EC-130-B4</h3>
+          <h3>2021 Airbus ACJ319neo</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Asian Sky Group
                 </Link>
               </p>
-              <h5>Philip Rushton</h5>
-              <p>88 East Main St Mendham New Jersey (USA) 07945</p>
+              <h5>Sales Team</h5>
+              <p>
+                Suite 1509, 15/F, 8 Queen's Road East Hong Kong China Wan Chai
+              </p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2021</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Oklahoma (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Airbus</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    10673
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     B-603R
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>246 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$49,950,000</h6>
+                <h6>Please Email</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -163,15 +156,21 @@ const TrendingAircraftEight = () => {
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>TT: 246</p>
+            <p>Cycles: 89</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>CFMI LEAP-1A26</p>
+            <p>SN: 59A444 / 59A449</p>
+            <p>TTSN: 246 / 246</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>APU Details</h4>
-            <p>APU on Honeywell MSP</p>
+            <p>Honeywell 131-9(A)</p>
+            <p>SN: P-9518</p>
+            <p>TT: 464</p>
+            <p>Cycles: 289</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
         </Styles.AircraftTrendingDetailsFeaturesRightContainer>
         <Styles.AircraftTrendingDetailsSummary>
@@ -181,21 +180,21 @@ const TrendingAircraftEight = () => {
               <li key={i}>{s}</li>
             ))}
           </ul>
-          <div>
+          {/* <div>
             <h2>Maintenance Status</h2>
             <p>48 month completed in March 2023</p>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h2>Features/Options</h2>
             <p>
               Owner prepared to close in 2023 and escrow agreed funds for an
               ARCS in early 2024.
             </p>
-          </div>
+          </div> */}
         </Styles.AircraftTrendingDetailsSummary>
       </Styles.AircraftTrendingDetailsFeaturesContainer>
     </Styles.AircraftTrendingDetailsContainer>
   );
 };
 
-export default TrendingAircraftEight;
+export default TrendingAircraftSix;

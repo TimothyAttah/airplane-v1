@@ -62,22 +62,22 @@ const TrendingAircraftTwo = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2008 Boeing Business Jet
+            2019 Gulfstream G650ER for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $39,750,000
+            Price: $49,950,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
+          <ImgComponent src={gulf6508} />,
           <ImgComponent src={gulf6501} />,
           <ImgComponent src={gulf6502} />,
           <ImgComponent src={gulf6503} />,
           <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
@@ -98,13 +98,13 @@ const TrendingAircraftTwo = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2008 Boeing Business Jet</h3>
+          <h3>2019 Gulfstream G650ER</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Gulfstream Aerospace
                 </Link>
               </p>
               <h5>Philip Rushton</h5>

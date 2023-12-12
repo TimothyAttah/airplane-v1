@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import Gulfstream1 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Ext1.jpg';
+import Gulfstream2 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Ext2.jpg';
+import Gulfstream3 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Ext3.jpg';
+import Gulfstream4 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Ext4.jpg';
+import Gulfstream5 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Ext5.jpg';
+import Gulfstream6 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Int1.jpg';
+import Gulfstream7 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Int2.jpg';
+import Gulfstream8 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Int3.jpg';
+import Gulfstream9 from '../../../../assets/129199_13_GulfstreamG650_sn6037-Int4.jpg';
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -14,47 +18,46 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  'Rolls Royce Corporate Care',
+  'APU on Honeywell MSP',
+  'Jet Connex KA Band Internet with SDR',
+  'Securaplane',
+  'Alto Custom Sound System with eight sub-woofers',
+  'Gulfstream Customer Cabin Management Systems 2 upgrade completed in Savannah',
+  'June 2023',
+  'STO4787NY June 2023',
+  'Full Block 3 upgrade with all parts reserved, scheduled to be completed Oct23 ',
+  'during annual mxx',
+  'On AOS program',
+  '$600K custom pearl white with metallic grey and black graphics',
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  ' 2 Global Positioning Systems (GPS)',
+  '3 Flight Management System (FMS)',
+  '2 Automatic Flight Guidance System',
+  '2 Autothrottles',
+  '3 Inertial Reference Systems (IRS)',
+  '1 Head Up Display (HUD)',
+  '1 Enhanced Vision System (EVS)',
+  '2 High Frequency (HF) Communications',
+  '3 Very High Frequency (VHF) Communications',
+  '1 VHF Navigation',
+  '1 Automated Direction Finder (ADF)',
+  '2 Air Traffic Control (ATC) Mode S',
+  '1 Traffic Collision Avoidance System (TCAS)',
+  '2 Distance Measuring Equipment (DME) Transceivers',
+  '1 Three-dimensional (3D) Color Weather Radar',
+  '2 Radio Altimeters',
+  '1 Multi-channel Satellite Communications System (SATCOM)',
+  '2 Enhanced Ground Proximity Warning System (EGPWS)',
+  '1 Emergency Locator Transmitter (ELT)',
+  '1 Flight Data Recorder System (FDR)',
+  '1 Cockpit Voice Recorder (CVR)',
+  'Cockpit Printer',
 ];
 
-const TrendingAircraftFive = () => {
+const TrendingAircraftSeven = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
@@ -62,29 +65,33 @@ const TrendingAircraftFive = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2004 Embraer ERJ-145LR
+            2013 Gulfstream G650 for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $49,950,000
+            Price: Please Email
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={Gulfstream1} />,
+          <ImgComponent src={Gulfstream2} />,
+          <ImgComponent src={Gulfstream3} />,
+          <ImgComponent src={Gulfstream4} />,
+          <ImgComponent src={Gulfstream5} />,
+          <ImgComponent src={Gulfstream6} />,
+          <ImgComponent src={Gulfstream7} />,
+          <ImgComponent src={Gulfstream8} />,
+          <ImgComponent src={Gulfstream9} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Stephen Ramsden</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -98,26 +105,28 @@ const TrendingAircraftFive = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2004 Embraer ERJ-145LR</h3>
+          <h3>2013 Gulfstream G650</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Corporate Aviation Holdings
                 </Link>
               </p>
-              <h5>Philip Rushton</h5>
-              <p>88 East Main St Mendham New Jersey (USA) 07945</p>
+              <h5>Stephen Ramsden</h5>
+              <p>
+                40 Lake Bellevue, Suite 100 Belleview Washington (USA) 98005
+              </p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2013</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Isle of Man</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
@@ -127,7 +136,7 @@ const TrendingAircraftFive = () => {
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    6037
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -135,17 +144,17 @@ const TrendingAircraftFive = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    M-USIK
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>4123 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$49,950,000</h6>
+                <h6>Please Email</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -198,4 +207,4 @@ const TrendingAircraftFive = () => {
   );
 };
 
-export default TrendingAircraftFive;
+export default TrendingAircraftSeven;

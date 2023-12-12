@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import ember2004 from '../../../../assets/2004-Embraer.jpg';
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -14,21 +10,12 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  'Rolls Royce Engines Model: AE3007A1 Engine 1 CAE 312464 16512.5 SNEW 13869 Cycles SNEW ',
+  '1214.28 Hours since last shop visit 1104 Cycles Since Last Shop visit Engine ',
+  '2 CAE 312552 14462.5 SNEW 12100 Cycles SNEW 3690.5 Hours since last shop',
+  'visit 3483 Cycles Since Last Shop visit APU SP - E0414659 16051 TT SNEW ,21139 CYCLES SNEW',
+  'Purchase: $3.9m ready to go, painted white, fresh C/Checks…new landing gear!',
+  'Dry Lease: 4 months deposit, 36-48 month term, $60k-$65k/month.',
 ];
 
 export const avionicsData = [
@@ -54,7 +41,7 @@ export const avionicsData = [
   '1 Honeywell LP-860 LSS',
 ];
 
-const TrendingAircraftOne = () => {
+const TrendingAircraftThree = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
@@ -62,29 +49,21 @@ const TrendingAircraftOne = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2008 Gulfstream G550
+            2004 Embraer ERJ-145LR for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $49,950,000
+            Price: $2,395,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
-      <Slider
-        imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
-        ]}
-      />
+      <Slider imgArr={[<ImgComponent src={ember2004} />]} />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Nealson Kretly</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -98,54 +77,57 @@ const TrendingAircraftOne = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2008 Gulfstream G550</h3>
+          <h3>2004 Embraer ERJ-145LR</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  The Jet Network
                 </Link>
               </p>
-              <h5>Philip Rushton</h5>
-              <p>88 East Main St Mendham New Jersey (USA) 07945</p>
+              <h5>Nealson Kretly</h5>
+              <p>
+                1100 Lee Wagener Blvd., Suite #211 Fort Lauderdale Florida (USA)
+                33315
+              </p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2004</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Florida (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Embraer</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
                     6354
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     B-603R
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>19657 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$49,950,000</h6>
+                <h6>$2,395,000 </h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -160,7 +142,7 @@ const TrendingAircraftOne = () => {
         </ul>
       </Styles.AircraftTrendingDetailsSummary>
       <Styles.AircraftTrendingDetailsFeaturesContainer>
-        <Styles.AircraftTrendingDetailsFeaturesRightContainer>
+        {/* <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
             <p>582 Hours TT</p>
@@ -173,8 +155,8 @@ const TrendingAircraftOne = () => {
             <h4>APU Details</h4>
             <p>APU on Honeywell MSP</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-        </Styles.AircraftTrendingDetailsFeaturesRightContainer>
-        <Styles.AircraftTrendingDetailsSummary>
+        </Styles.AircraftTrendingDetailsFeaturesRightContainer> */}
+        {/* <Styles.AircraftTrendingDetailsSummary>
           <h2>Avionics</h2>
           <ul>
             {avionicsData.map((s, i) => (
@@ -192,10 +174,10 @@ const TrendingAircraftOne = () => {
               ARCS in early 2024.
             </p>
           </div>
-        </Styles.AircraftTrendingDetailsSummary>
+        </Styles.AircraftTrendingDetailsSummary> */}
       </Styles.AircraftTrendingDetailsFeaturesContainer>
     </Styles.AircraftTrendingDetailsContainer>
   );
 };
 
-export default TrendingAircraftOne;
+export default TrendingAircraftThree;

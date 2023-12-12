@@ -21,8 +21,8 @@ const AircraftTrending = () => {
       </FadeIn>
       <Styles.AircraftListItemsContainer>
         {trendingAircrafts.map((item, i) => (
-          <Styles.AircraftListItemsWrapper>
-            <FadeIn key={i} delay={(i + 1) * 0.2} direction='left'>
+          <Styles.AircraftListItemsWrapper key={i}>
+            <FadeIn delay={(i + 1) * 0.2} direction='left'>
               <Link to={`/aircrafts-for-sale/${item.jetId}/details`}>
                 <Styles.AircraftListItemsWrapper>
                   <h4>{item.jetName}</h4>

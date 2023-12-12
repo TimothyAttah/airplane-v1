@@ -1,14 +1,14 @@
 import { TRENDING_AIRCRAFT } from '../types';
 // import { v4 as uuidV4 } from 'uuid';
 
-import jet1 from '../../assets/jet1.jpg';
-import jet2 from '../../assets/jet2.jpg';
-import jet3 from '../../assets/jet3.jpg';
-import jet4 from '../../assets/jet4.jpg';
-import jet5 from '../../assets/jet5.jpg';
-import jet6 from '../../assets/jet6.jpg';
-import jet7 from '../../assets/jet7.jpg';
-import jet8 from '../../assets/jet8.jpg';
+import jet1 from '../../assets/gulf-19-1.jpg';
+import jet2 from '../../assets//129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import jet3 from '../../assets/2004-Embraer.jpg';
+import jet4 from '../../assets/learjet4.jpg';
+import jet5 from '../../assets/global-2014-1.jpg';
+import jet6 from '../../assets/airbus1.jpg';
+import jet7 from '../../assets/129199_13_GulfstreamG650_sn6037-Ext1.jpg';
+import jet8 from '../../assets/130285_99_KingAirB200_snBB-1663-Ext1.jpg';
 import gulf6501 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
 import gulf6502 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
 import gulf6503 from '../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
@@ -25,7 +25,7 @@ import gulf6508 from '../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM (
 const initialState = {
   trendingAircrafts: [
     {
-      jetName: '2019 Gulfstream G650ER',
+      jetName: '1985 Gulfstream III',
       jetType: 'Jet Aircraft',
       jetPix: jet1,
       jetViews: 95,
@@ -95,7 +95,7 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2008 Boeing Business Jet',
+      jetName: '2019 Gulfstream G650ER',
       jetType: 'Jet Aircraft',
       jetPix: jet2,
       jetViews: 87,
@@ -166,7 +166,7 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2008 Gulfstream G550',
+      jetName: ' 2004 Embraer ERJ-145LR',
       jetType: 'Jet Aircraft',
       jetPix: jet3,
       jetViews: 130,
@@ -237,7 +237,7 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2019 Gulfstream G650ER',
+      jetName: ' 2002 Learjet 45',
       jetType: 'Jet Aircraft',
       jetPix: jet4,
       jetViews: 163,
@@ -308,7 +308,7 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2004 Embraer ERJ-145LR',
+      jetName: '2014 Global 5000',
       jetType: 'Commercial Aircraft',
       jetPix: jet5,
       jetViews: 95,
@@ -379,10 +379,10 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2008 Boeing Business Jet',
+      jetName: '2021 Airbus ACJ319neo',
       jetType: 'Jet Aircraft',
       jetPix: jet6,
-      jetViews: 95,
+      jetViews: 175,
       jetId: '24410089-73f7-4d02-87ee-4f5198fe73b86',
 
       jetPics: [
@@ -450,10 +450,10 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '1999 King Air B200',
+      jetName: '2013 Gulfstream G650',
       jetType: 'Twin Turbo-Prop Aircraft',
       jetPix: jet7,
-      jetViews: 95,
+      jetViews: 200,
       jetId: '24410089-73f7-4d02-87ee-4f5198fe73b87',
 
       jetPics: [
@@ -521,10 +521,10 @@ const initialState = {
         'Owner prepared to close in 2023 and escrow agreed funds for an ARCS in early 2024.',
     },
     {
-      jetName: '2008 Eurocopter EC-130-B4',
+      jetName: '1999 King Air B200',
       jetType: 'Jet Aircraft',
       jetPix: jet8,
-      jetViews: 95,
+      jetViews: 145,
       jetId: '24410089-73f7-4d02-87ee-4f5198fe73b88',
 
       jetPics: [
