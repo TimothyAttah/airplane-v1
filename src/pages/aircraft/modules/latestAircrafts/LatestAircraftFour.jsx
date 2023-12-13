@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+
+import bonaza1 from '../../../../assets/bonaza-1.jpg';
+import bonaza2 from '../../../../assets/bonaza-3.jpg';
+import bonaza3 from '../../../../assets/bonaza-4.jpg';
+import bonaza4 from '../../../../assets/bonaza-5.jpg';
+import bonaza5 from '../../../../assets/bonaza-6.jpg';
+import bonaza6 from '../../../../assets/bonaza-10.jpg';
+import bonaza7 from '../../../../assets/bonaza-13.jpg';
+import bonaza8 from '../../../../assets/bonaza-14.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -55,24 +60,27 @@ const LatestAircraftFour = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $519,000,000
+            Price: $63,300,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={bonaza1} />,
+          <ImgComponent src={bonaza2} />,
+          <ImgComponent src={bonaza3} />,
+          <ImgComponent src={bonaza4} />,
+          <ImgComponent src={bonaza5} />,
+          <ImgComponent src={bonaza6} />,
+          <ImgComponent src={bonaza7} />,
+          <ImgComponent src={bonaza8} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Mabel Matthew</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -86,16 +94,14 @@ const LatestAircraftFour = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3>2005 Bonanza A36</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Carolina Aircraft, Inc.
-                </Link>
+                <Link to='#'>Carolina Aircraft, Inc.</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -113,17 +119,13 @@ const LatestAircraftFour = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    E-3588
-                  </Link>
+                  <Link to='#'>E-3588</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    N136EU
-                  </Link>
+                  <Link to='#'>N136EU</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -132,7 +134,7 @@ const LatestAircraftFour = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> Please Email</h6>
+                <h6> $63,300,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

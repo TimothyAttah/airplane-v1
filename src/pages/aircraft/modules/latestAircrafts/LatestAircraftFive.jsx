@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+import CitationCJ21 from '../../../../assets/CitationCJ2-1.jpg';
+import CitationCJ22 from '../../../../assets/CitationCJ2-2.jpg';
+import CitationCJ23 from '../../../../assets/CitationCJ2-3.jpg';
+import CitationCJ24 from '../../../../assets/CitationCJ2-4.jpg';
+import CitationCJ25 from '../../../../assets/CitationCJ2-5.jpg';
+import CitationCJ26 from '../../../../assets/CitationCJ2-6.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -45,24 +47,25 @@ const LatestAircraftFive = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Please Email
+            Price: Please Email
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={CitationCJ21} />,
+          <ImgComponent src={CitationCJ22} />,
+          <ImgComponent src={CitationCJ23} />,
+          <ImgComponent src={CitationCJ24} />,
+          <ImgComponent src={CitationCJ25} />,
+          <ImgComponent src={CitationCJ26} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Mabel Matthew</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -76,16 +79,14 @@ const LatestAircraftFive = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3>2009 Citation CJ2+</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  JetBrokers
-                </Link>
+                <Link to='#'>JetBrokers</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -103,17 +104,13 @@ const LatestAircraftFive = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    525A-0457
-                  </Link>
+                  <Link to='#'>525A-0457</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    T7-APP
-                  </Link>
+                  <Link to='#'>T7-APP</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>

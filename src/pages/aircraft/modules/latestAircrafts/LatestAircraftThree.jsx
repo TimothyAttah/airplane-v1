@@ -32,26 +32,20 @@ export const summaryData = [
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  'Avidyne Entegra Primary Color Flight Display (PFD)',
+  'Avidyne EX 5000 Multifunction Display (MFD)',
+  'L3 Skywatch Traffic Information',
+  'L3 Stormscope Lightning Detection',
+  'XM Datalink Weather XM Audio Entertainment',
+  'Honeywell KGP-560 Terrain Awareness Warning System (E-TAWS)',
+  'Engine & Fuel Monitoring (EMax)',
+  'Electronic Approach Charts (CMax)',
+  'Avidyne AMX240 Audio Panel',
+  'Dual Avidyne IFD-440s',
+  'Avidyne Digital DFC90 Autopilot w/ Flight Director',
+  'Avidyne AXP340 ADS-B Out Transponder',
+  'Avidyne Skytrax100 ADS-B In Receiver',
+  'L3 Electronic Standby Instrument',
 ];
 
 const LatestAircraftThree = () => {
@@ -126,7 +120,7 @@ const LatestAircraftThree = () => {
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    1865
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -134,17 +128,17 @@ const LatestAircraftThree = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    N411B
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>1840 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> Please Email</h6>
+                <h6> $349,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -152,21 +146,41 @@ const LatestAircraftThree = () => {
       </Styles.AircraftTrendingContactFeaturesBox>
       <Styles.AircraftTrendingDetailsSummary>
         <h2>Summary</h2>
-        <ul>
+        {/* <ul>
           {summaryData.map((s, i) => (
             <li key={i}>{s}</li>
           ))}
-        </ul>
+        </ul> */}
+
+        <p>
+          Very Clean 2006 SR22 GTS Equipped and Loaded with Extras!! 1840
+          Airframe/Engine Hours Since New. Loaded with all the options including
+          Dual Avidyne IFD 440 FMS/GPS/NAV/COM, Avidyne DFC Digital Autopilot,
+          Avidyne AMX240 Audio Panel, Avidyne AXP340 ADS-B Out Transponder, L3
+          Electronic Standby Instrument and more! Hangared Since New with only
+          two owners! Seller upgrading….bring offers! Available for immediate
+          sale! Financing is available with competitive rates call us today at
+          1-888-566-3686!
+        </p>
       </Styles.AircraftTrendingDetailsSummary>
       <Styles.AircraftTrendingDetailsFeaturesContainer>
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>1840 Flight Hours since new</p>
+            <p>Always Hangared </p>
+            <p>Annual – December 2023</p>
+            <p>CAPS Repack Due – February 2026</p>
+            <p>Basic Empty Weight - 2401 </p>
+            <p>Whelen LED Wingtip Lights</p>
+            <p>Alpha Systems AOA System</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>1840 Hours Since New</p>
+            <p>Platinum Engine – 2200 Hour</p>
+            <p>TBO </p>
+            <p>Airwolf Air Oil Separator</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>APU Details</h4>

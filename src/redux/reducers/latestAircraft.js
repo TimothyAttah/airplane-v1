@@ -3,19 +3,19 @@ import { LATEST_AIRCRAFT } from '../types';
 import jet9 from '../../assets/jet9.jpg';
 import jet10 from '../../assets/jet10.jpg';
 import jet11 from '../../assets/jet11.jpg';
-import jet12 from '../../assets/jet12.jpg';
-import jet13 from '../../assets/jet13.jpg';
+import jet12 from '../../assets/bonaza-1.jpg';
+import jet13 from '../../assets/CitationCJ2-1.jpg';
 import jet14 from '../../assets/jet14.jpg';
 import jet15 from '../../assets/jet15.jpg';
-import jet16 from '../../assets/jet16.png';
+import jet16 from '../../assets/gulf-2023.png';
 
 const initialState = {
   latestAircrafts: [
     {
-      jetName: '2009 Cessna 182T',
+      jetName: '2001 Citation Bravo',
       jetType: 'Skylane',
       jetPix: jet9,
-      jetPrice: '$48,500,000',
+      jetPrice: '$489,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a1',
     },
     {
@@ -33,14 +33,14 @@ const initialState = {
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a3',
     },
     {
-      jetName: '1975 Warrior PA-28-151',
+      jetName: ' 2005 Bonanza A36',
       jetType: 'Ly-Con STC 160 Hp',
       jetPix: jet12,
-      jetPrice: '$81,000,500',
+      jetPrice: '$63,300,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a4',
     },
     {
-      jetName: '2007 Agusta A119',
+      jetName: '2009 Citation CJ2+',
       jetType: 'Helicopters',
       jetPix: jet13,
       jetPrice: 'Please Email',
@@ -61,10 +61,10 @@ const initialState = {
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a7',
     },
     {
-      jetName: '1964 Orion P3',
+      jetName: ' 2003 Gulfstream IV/SP',
       jetType: 'Warbirds',
       jetPix: jet16,
-      jetPrice: '$53,800, 000',
+      jetPrice: '$60,495,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a8',
     },
   ],

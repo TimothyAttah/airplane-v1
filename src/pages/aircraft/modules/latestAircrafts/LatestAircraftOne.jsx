@@ -2,11 +2,20 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+
+import bravo1 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext1.jpg';
+import bravo2 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext2.jpg';
+import bravo3 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext3.jpg';
+import bravo4 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext4.jpg';
+import bravo5 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext5.jpg';
+import bravo6 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Ext6.jpg';
+import bravo7 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Int1.jpg';
+import bravo8 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Int2.jpg';
+import bravo9 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Int3.jpg';
+import bravo10 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Int4.jpg';
+import bravo11 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Int5.jpg';
+import bravo12 from '../../../../assets/130492_01_CitationBravo_sn550-0993-Pan1.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -63,24 +72,32 @@ const LatestAircraftOne = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $489,000,000
+            Price: $489,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={bravo1} />,
+          <ImgComponent src={bravo2} />,
+          <ImgComponent src={bravo3} />,
+          <ImgComponent src={bravo4} />,
+          <ImgComponent src={bravo5} />,
+          <ImgComponent src={bravo6} />,
+          <ImgComponent src={bravo7} />,
+          <ImgComponent src={bravo8} />,
+          <ImgComponent src={bravo9} />,
+          <ImgComponent src={bravo10} />,
+          <ImgComponent src={bravo11} />,
+
+          <ImgComponent src={bravo12} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Mabel Matthew</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -94,16 +111,14 @@ const LatestAircraftOne = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3> 2001 Citation Bravo</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  International Aircraft Marketing & Sales
-                </Link>
+                <Link to='#'>International Aircraft Marketing & Sales</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -121,17 +136,13 @@ const LatestAircraftOne = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    550-0993
-                  </Link>
+                  <Link to='#'>550-0993</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    N721T
-                  </Link>
+                  <Link to='#'>N721T</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
