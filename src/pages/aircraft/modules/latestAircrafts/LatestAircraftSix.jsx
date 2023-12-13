@@ -32,26 +32,28 @@ export const summaryData = [
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  ' 4-Axis AFCS',
+  'EFIS - 4 Screen 8.4” with embedded FMS',
+  'Dual VHF COMM - Collins 4000E',
+  'Dual NAV/VOR/ILS/ADF - Collins 4000',
+  'Radio altimeter - ALT-4000',
+  'Weather radar - RDR-2000',
+  'GPS - Interfaced with EFIS/FMS',
+  'Digital audio system - NAT',
+  'ELT - Artex C406',
+  'GPS - Moving map Euronav',
+  'Synthetic vision system',
+  'HTAWS',
+  'Dual AHRS',
+  'TCAS - TAS-620',
+  'Intercom system - With cabin loudspeakers',
+  'ADS-B Out compliant',
+  'Transponder - Collins TDR 94',
+  'ADS-B Out compliant',
+  'Transponder - Collins TDR 94',
+  'Dual air data computer',
+  'DME',
+  'ADF',
 ];
 
 const LatestAircraftSix = () => {
@@ -62,7 +64,7 @@ const LatestAircraftSix = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2019 Cirrus SR22T G6
+            2012 Grand New 109SP for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
@@ -98,13 +100,13 @@ const LatestAircraftSix = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3>2012 Grand New 109SP</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  International Aviation Marketing, Ltd
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -112,31 +114,31 @@ const LatestAircraftSix = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2012</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Canada</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Agusta Helicopter</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    22285
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     B-603R
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
@@ -152,14 +154,24 @@ const LatestAircraftSix = () => {
       </Styles.AircraftTrendingContactFeaturesBox>
       <Styles.AircraftTrendingDetailsSummary>
         <h2>Summary</h2>
-        <ul>
+        {/* <ul>
           {summaryData.map((s, i) => (
             <li key={i}>{s}</li>
           ))}
-        </ul>
+        </ul> */}
+
+        <p>
+          This immaculately maintained VVIP-configured Agusta A109SP Grand New
+          helicopter is available for immediate sale. With tinted cabin windows,
+          pristine leather cabin seating, and baggage bay extension, this is an
+          excellent option for luxury passenger transport. The aircraft has a
+          comprehensive avionics package, extended-range fuel capacity, and
+          low-time components and would be an attractive option for a private
+          buyer or addition to a corporate transport fleet.
+        </p>
       </Styles.AircraftTrendingDetailsSummary>
       <Styles.AircraftTrendingDetailsFeaturesContainer>
-        <Styles.AircraftTrendingDetailsFeaturesRightContainer>
+        {/* <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
             <p>582 Hours TT</p>
@@ -172,7 +184,7 @@ const LatestAircraftSix = () => {
             <h4>APU Details</h4>
             <p>APU on Honeywell MSP</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-        </Styles.AircraftTrendingDetailsFeaturesRightContainer>
+        </Styles.AircraftTrendingDetailsFeaturesRightContainer> */}
         <Styles.AircraftTrendingDetailsSummary>
           <h2>Avionics</h2>
           <ul>
@@ -186,10 +198,17 @@ const LatestAircraftSix = () => {
           </div>
           <div>
             <h2>Features/Options</h2>
-            <p>
-              Owner prepared to close in 2023 and escrow agreed funds for an
-              ARCS in early 2024.
-            </p>
+            <p>Dual controls </p>
+            <p>Sliding cabin doors</p>
+            <p>Air conditioning</p>
+            <p>Engine fire extinguishers</p>
+            <p>Reinforced windshields</p>
+            <p>Tailboom strake </p>
+            <p>kit Baggage bay lighting</p>
+            <p>Baggage bay extension </p>
+            <p>Rotor brake</p>
+            <p>Heating and defogging</p>
+            <p>Super silent soundproofing</p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
       </Styles.AircraftTrendingDetailsFeaturesContainer>

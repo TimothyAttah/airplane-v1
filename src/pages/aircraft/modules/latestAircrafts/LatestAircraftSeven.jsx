@@ -14,21 +14,17 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  'Off Market',
+  'One Corporate Owner Since New – Excellent Pedigree',
+  'Low Time for Vintage – 2,547 Total Hours',
+  'Fully Enrolled on Programs',
+  'Rockwell Collins Pro Line 21 Advanced Cockpit',
+  'FANS 1/A over Iridium, CPDLC, WAAS, LPV, RNP-AR, Link 2000+, ADS-B Out',
+  'Synthetic Vision System',
+  'Dual Integrated Flight Information System (IFIS) with Electronic Charts',
+  'Gogo AVANCE L5 Broadband Wi-Fi Internet',
+  'Delivered with Fresh 12/24/48 Month Inspection',
+  'Contact us to learn more about this exceptional aircraft.',
 ];
 
 export const avionicsData = [
@@ -62,12 +58,12 @@ const LatestAircraftSeven = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2019 Cirrus SR22T G6
+            2012 Challenger 300 for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $775,000
+            $775,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -104,7 +100,7 @@ const LatestAircraftSeven = () => {
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Owner Jet Sales
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -112,39 +108,39 @@ const LatestAircraftSeven = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2012</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>USA</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Bombardier</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
                     6354
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
-                <p>
+                {/* <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     B-603R
                   </Link>
-                </p>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>2547 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$775,000</h6>
+                <h6>$775,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -158,7 +154,7 @@ const LatestAircraftSeven = () => {
           ))}
         </ul>
       </Styles.AircraftTrendingDetailsSummary>
-      <Styles.AircraftTrendingDetailsFeaturesContainer>
+      {/* <Styles.AircraftTrendingDetailsFeaturesContainer>
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
@@ -192,7 +188,7 @@ const LatestAircraftSeven = () => {
             </p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
-      </Styles.AircraftTrendingDetailsFeaturesContainer>
+      </Styles.AircraftTrendingDetailsFeaturesContainer> */}
     </Styles.AircraftTrendingDetailsContainer>
   );
 };

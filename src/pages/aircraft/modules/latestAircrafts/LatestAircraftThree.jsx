@@ -62,12 +62,12 @@ const LatestAircraftThree = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            1974 Cessna 172
+            2006 Cirrus SR22 for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Please Email
+            Price: $349,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -98,7 +98,7 @@ const LatestAircraftThree = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3>2006 Cirrus SR22</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
@@ -112,15 +112,15 @@ const LatestAircraftThree = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2006</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Georgia (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Circus Aircraft</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
