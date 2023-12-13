@@ -18,12 +18,16 @@ const Slider = ({ imgArr }) => {
           {item}
         </Styles.Slide>
       ))}
-      <button id='goLeft' onClick={goLeft}>
-        <RiArrowDropLeftFill />
-      </button>
-      <button id='goRight' onClick={goRight}>
-        <RiArrowDropRightFill />
-      </button>
+      {imgArr.length > 1 && (
+        <>
+          <button id='goLeft' onClick={goLeft}>
+            <RiArrowDropLeftFill />
+          </button>
+          <button id='goRight' onClick={goRight}>
+            <RiArrowDropRightFill />
+          </button>
+        </>
+      )}
     </Styles.SliderContainer>
   );
 };

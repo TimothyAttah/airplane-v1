@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/';
+import gulf6501 from '../../../../assets/pix1.JPG';
 
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
@@ -64,15 +64,7 @@ const LatestAircraftSeven = () => {
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
-      <Slider
-        imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
-        ]}
-      />
+      <Slider imgArr={[<ImgComponent src={gulf6501} />]} />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
