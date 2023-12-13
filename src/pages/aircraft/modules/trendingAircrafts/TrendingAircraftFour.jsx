@@ -62,7 +62,7 @@ const TrendingAircraftFour = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $2,650,000
+            Price: $30,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -78,7 +78,7 @@ const TrendingAircraftFour = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Spencer Mitchell</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -97,11 +97,9 @@ const TrendingAircraftFour = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Thoroughbred Aviation, LLC
-                </Link>
+                <Link to='#'>Thoroughbred Aviation, LLC</Link>
               </p>
-              <h5>Lee Brewster</h5>
+              <h5>Sullivan Stapleton</h5>
               <p>88 East Main St Mendham New Jersey (USA) 07945</p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
@@ -120,17 +118,19 @@ const TrendingAircraftFour = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
+                  {/* <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
                     42-214
-                  </Link>
+                  </Link> */}
+                  <Link to='#'>42-214</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
+                  {/* <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     N11NF
-                  </Link>
+                  </Link> */}
+                  <Link to='#'>N11NF</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>

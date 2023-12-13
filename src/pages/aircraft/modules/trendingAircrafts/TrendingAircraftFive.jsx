@@ -81,7 +81,7 @@ const TrendingAircraftFive = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $19,995,000
+            Price: $30,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -121,9 +121,10 @@ const TrendingAircraftFive = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
+                {/* <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
                   Guardian Jet, LLC
-                </Link>
+                </Link> */}
+                <Link to='#'>Guardian Jet, LLC</Link>
               </p>
               <h5>Sales Team</h5>
               <p>102A Broad Street Guilford Connecticut (USA) 06437</p>
@@ -144,17 +145,13 @@ const TrendingAircraftFive = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    9602
-                  </Link>
+                  <Link to='#'>9602</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    G-LAMO
-                  </Link>
+                  <Link to='#'>G-LAMO</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>

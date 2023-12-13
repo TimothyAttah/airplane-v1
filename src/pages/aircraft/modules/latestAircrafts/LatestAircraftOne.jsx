@@ -32,26 +32,22 @@ export const summaryData = [
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  'Honeywell PRIMUS1000 Integrated Avionics System with Integral FMS',
+  'ADS-B IN & OUT',
+  'Dual Garmin GTN 750XI (JETTECH STC)',
+  'Garmin Audio Panel',
+  'Garmin GTX-345R Transponder',
+  'Garmin GTX-335R Transponder',
+  'Fairchild A200S CVR',
+  'Honeywell CD-820 Control Display Unit',
+  'GH 3000 Electric Standby Instrument',
+  'Honeywell MD-441 DME',
+  'Dual Honeywell KN-53 w/FM Immunity',
+  'Honeywell AA-300 Radar Altimeter',
+  'Allied Signal Enhanced EGPWS',
+  'M877 Chronometer',
+  'Honeywell Primus 660 Color Radar',
+  'Dual Honeywell AZ-850 Air Data Computers',
 ];
 
 const LatestAircraftOne = () => {
@@ -62,12 +58,12 @@ const LatestAircraftOne = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2009 Cessna 182T
+            2001 Citation Bravo for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $489,000
+            $489,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -104,7 +100,7 @@ const LatestAircraftOne = () => {
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  International Aircraft Marketing & Sales
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -116,17 +112,17 @@ const LatestAircraftOne = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Florida (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Cessna</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    550-0993
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -134,39 +130,43 @@ const LatestAircraftOne = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    N721T
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>3632 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> $489,000</h6>
+                <h6> $489,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
         </Styles.AircraftTrendingDetailsMainWrapper>
       </Styles.AircraftTrendingContactFeaturesBox>
-      <Styles.AircraftTrendingDetailsSummary>
+      {/* <Styles.AircraftTrendingDetailsSummary>
         <h2>Summary</h2>
         <ul>
           {summaryData.map((s, i) => (
             <li key={i}>{s}</li>
           ))}
         </ul>
-      </Styles.AircraftTrendingDetailsSummary>
+      </Styles.AircraftTrendingDetailsSummary> */}
       <Styles.AircraftTrendingDetailsFeaturesContainer>
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>TLSN: 2,801</p>
+            <p>TTSN: 3,632 </p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>TTSN: 3,632 / 3,632</p>
+            <p>Pratt & Whitney 530A Series </p>
+            <p>TCSN: 2,801 / 2,801 </p>
+            <p>SN: PCEDA0398 / PCEDA0399</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>APU Details</h4>
@@ -186,10 +186,10 @@ const LatestAircraftOne = () => {
           </div>
           <div>
             <h2>Features/Options</h2>
-            <p>
-              Owner prepared to close in 2023 and escrow agreed funds for an
-              ARCS in early 2024.
-            </p>
+            <p>Rosen Sunvisors </p>
+            <p>Precise Light Pulse Lighting</p>
+            <p>Safeflight N1 Reminder System</p>
+            <p>B&D 15000 Cabin Information Display</p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
       </Styles.AircraftTrendingDetailsFeaturesContainer>

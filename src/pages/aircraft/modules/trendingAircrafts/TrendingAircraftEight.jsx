@@ -77,7 +77,7 @@ const TrendingAircraftEight = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Tim Layton</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -96,11 +96,12 @@ const TrendingAircraftEight = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
+                {/* <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
                   Pollard Aircraft Sales, Inc.
-                </Link>
+                </Link> */}
+                <Link to='#'>Pollard Aircraft Sales, Inc.</Link>
               </p>
-              <h5>Tim Layton</h5>
+              <h5>Sullivan Stapleton</h5>
               {/* <p>88 East Main St Mendham New Jersey (USA) 07945</p> */}
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
@@ -119,17 +120,19 @@ const TrendingAircraftEight = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
+                  {/* <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
                     BB-1663
-                  </Link>
+                  </Link> */}
+                  <Link to='#'>BB-1663</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
+                  {/* <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
                     N720AM
-                  </Link>
+                  </Link> */}
+                  <Link to='#'>N720AM</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>

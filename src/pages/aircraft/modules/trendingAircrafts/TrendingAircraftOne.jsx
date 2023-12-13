@@ -54,7 +54,7 @@ const TrendingAircraftOne = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $1,100,000
+            Price: $30,100,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -71,7 +71,7 @@ const TrendingAircraftOne = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Robert Vidal</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -90,11 +90,9 @@ const TrendingAircraftOne = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Langley Aviation
-                </Link>
+                <Link to='#'>Langley Aviation</Link>
               </p>
-              <h5>Robert Vidal</h5>
+              <h5>Sullivan Stapleton</h5>
               <p>88 East Main St Mendham New Jersey (USA) 07945</p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
@@ -132,7 +130,7 @@ const TrendingAircraftOne = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$1,100,000</h6>
+                <h6>$30,100,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

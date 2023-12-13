@@ -55,7 +55,7 @@ const TrendingAircraftSix = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: Please Call
+            Price: $30,500,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -94,9 +94,7 @@ const TrendingAircraftSix = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Asian Sky Group
-                </Link>
+                <Link to='#'>Asian Sky Group</Link>
               </p>
               <h5>Sales Team</h5>
               <p>
@@ -119,9 +117,7 @@ const TrendingAircraftSix = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    10673
-                  </Link>
+                  <Link to='#'>10673</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -138,7 +134,7 @@ const TrendingAircraftSix = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>Please Email</h6>
+                <h6>$30,500,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

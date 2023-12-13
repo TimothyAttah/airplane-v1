@@ -54,7 +54,7 @@ const TrendingAircraftThree = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $2,395,000
+            Price: $38,040,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -63,7 +63,7 @@ const TrendingAircraftThree = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Nealson Kretly</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -82,11 +82,9 @@ const TrendingAircraftThree = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  The Jet Network
-                </Link>
+                <Link to='#'>The Jet Network</Link>
               </p>
-              <h5>Nealson Kretly</h5>
+              <h5>Sullivan Stapleton</h5>
               <p>
                 1100 Lee Wagener Blvd., Suite #211 Fort Lauderdale Florida (USA)
                 33315
@@ -127,7 +125,7 @@ const TrendingAircraftThree = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$2,395,000 </h6>
+                <h6>$38,040,000 </h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

@@ -14,44 +14,22 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  'EU-Ops CJ2+ with only 3577TT, TAP Blue and motivated Seller.',
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  ' Flight System Collins Pro-line 21 3 Screen',
+  'Autopilot Collins Pro-line 21',
+  'Radar Collins',
+  'Comms Dual Collins',
+  'Navs Dual Collins NAV-4000',
+  'DME Dual Collins',
+  'ADF Collins NAV-4000',
+  'Transponders Dual Collins TDR-94D w/ Diversity',
+  'HF Comm Collins HF-9000',
+  'Traffic Collins TCAS-4000 w/ 7.1',
+  'Terrain Honeywell Mk-VIII EGPWS',
+  'FMS Collins FMS-3000 w/ GPS-4000S',
 ];
 
 const LatestAircraftFive = () => {
@@ -62,7 +40,7 @@ const LatestAircraftFive = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            1982 Nanchang CJ-6A
+            2009 Citation CJ2+ for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
@@ -104,7 +82,7 @@ const LatestAircraftFive = () => {
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  JetBrokers
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -112,21 +90,21 @@ const LatestAircraftFive = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2009</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>Austria</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Cessna</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    525A-0457
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -134,13 +112,13 @@ const LatestAircraftFive = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    T7-APP
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>3577 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
@@ -162,16 +140,22 @@ const LatestAircraftFive = () => {
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>Year of Manufacture: 2009</p>
+            <p>Time Since New: 3577:34</p>
+            <p> Landings: 1903</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>Williams FJ4403A-24 LEFT</p>
+            <p>RIGHT</p>
+            <p>Serial Number 216329 216328</p>
+            <p>Time Since New 3505:01</p>
+            <p>Cycles Since New 1876 1857</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-          <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
+          {/* <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>APU Details</h4>
             <p>APU on Honeywell MSP</p>
-          </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
+          </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox> */}
         </Styles.AircraftTrendingDetailsFeaturesRightContainer>
         <Styles.AircraftTrendingDetailsSummary>
           <h2>Avionics</h2>
@@ -182,14 +166,14 @@ const LatestAircraftFive = () => {
           </ul>
           <div>
             <h2>Maintenance Status</h2>
-            <p>48 month completed in March 2023</p>
+            <p>DOC 10 c/w 1/23 @ 3601:01 TT On Cesocm</p>
           </div>
           <div>
             <h2>Features/Options</h2>
-            <p>
-              Owner prepared to close in 2023 and escrow agreed funds for an
-              ARCS in early 2024.
-            </p>
+            <p>ADS-B Out Equipped</p>
+            <p>Avionics Dispatch Switch</p>
+            <p>Artex C406N ELT</p>
+            <p>Garmin GPS-500w</p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
       </Styles.AircraftTrendingDetailsFeaturesContainer>

@@ -70,7 +70,7 @@ const TrendingAircraftSeven = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: Please Email
+            Price: $35,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -91,7 +91,7 @@ const TrendingAircraftSeven = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Stephen Ramsden</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -110,11 +110,9 @@ const TrendingAircraftSeven = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Corporate Aviation Holdings
-                </Link>
+                <Link to='#'>Corporate Aviation Holdings</Link>
               </p>
-              <h5>Stephen Ramsden</h5>
+              <h5>Sullivan Stapleton</h5>
               <p>
                 40 Lake Bellevue, Suite 100 Belleview Washington (USA) 98005
               </p>
@@ -135,17 +133,13 @@ const TrendingAircraftSeven = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6037
-                  </Link>
+                  <Link to='#'>6037</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    M-USIK
-                  </Link>
+                  <Link to='#'>M-USIK</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -154,7 +148,7 @@ const TrendingAircraftSeven = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>Please Email</h6>
+                <h6>$35,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

@@ -84,7 +84,7 @@ const TrendingAircraftTwo = () => {
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Philip Rushton</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -103,11 +103,9 @@ const TrendingAircraftTwo = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Gulfstream Aerospace
-                </Link>
+                <Link to='#'>Gulfstream Aerospace</Link>
               </p>
-              <h5>Philip Rushton</h5>
+              <h5>Sullivan Stapleton</h5>
               <p>88 East Main St Mendham New Jersey (USA) 07945</p>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
@@ -126,17 +124,13 @@ const TrendingAircraftTwo = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
-                  </Link>
+                  <Link to='#'>6354</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
-                  </Link>
+                  <Link to='#'>B-603R</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>

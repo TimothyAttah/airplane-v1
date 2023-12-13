@@ -14,21 +14,17 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  'N registered since new',
+  'Low Total Time',
+  'Engines Enrolled on Rolls-Royce Corporate Care',
+  'APU on MSP',
+  'GoGo ATG 4000 Wireless Internet',
+  'Enhanced Vision System',
+  'Live TV ViaSat AIS-2000',
+  'TRIPLE FMZ-2000 with 6.1 upgrade and WAAS',
+  'RAAS',
+  'Securaplane 500',
+  'Part 135 Operated & Maintained',
 ];
 
 export const avionicsData = [
@@ -62,12 +58,12 @@ const LatestAircraftEight = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            1975 Warrior PA-28-151
+            2003 Gulfstream IV/SP for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $81,000
+            Price: $60,495,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -104,7 +100,7 @@ const LatestAircraftEight = () => {
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Equus Global Aviation
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -112,11 +108,11 @@ const LatestAircraftEight = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2023</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>New Jersey (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
@@ -126,7 +122,7 @@ const LatestAircraftEight = () => {
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    1495
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -134,17 +130,17 @@ const LatestAircraftEight = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    N889AL
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>8200 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6>$81,000</h6>
+                <h6>$60,495,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -158,7 +154,7 @@ const LatestAircraftEight = () => {
           ))}
         </ul>
       </Styles.AircraftTrendingDetailsSummary>
-      <Styles.AircraftTrendingDetailsFeaturesContainer>
+      {/* <Styles.AircraftTrendingDetailsFeaturesContainer>
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
@@ -192,7 +188,7 @@ const LatestAircraftEight = () => {
             </p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
-      </Styles.AircraftTrendingDetailsFeaturesContainer>
+      </Styles.AircraftTrendingDetailsFeaturesContainer> */}
     </Styles.AircraftTrendingDetailsContainer>
   );
 };

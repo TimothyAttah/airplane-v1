@@ -14,44 +14,32 @@ import { Contact } from '../../../../components/contact/Contact';
 import { RiMailLine } from 'react-icons/ri';
 
 export const summaryData = [
-  'Exclusive Listing',
-  'Low Flight hours',
-  'One owner since new',
-  'Private use only',
-  'Forward Galley',
-  'Four zone, 17 passenger configuration',
-  'RRCC and MSP',
-  '2020 mandates complied with',
-  'WIFI',
-  'Maintenance complied with at Gulfstream authorized facilities',
-  'Four single VIP club seats',
-  'Three place divan opposite two single VIP club seats',
-  'Four place conference table',
-  'Two 3 place divans (Two each TTOL seats)',
-  'Additional valuable equipment / materials included in sale',
+  ' IO-550 300 Horsepower Engine 100',
+  'Since Major Overhaul and New Generation Avidyne ',
+  'Avionics with Garmin GTX-345',
+  'Transponder for Subscription Free ADS-B Traffic & Weather',
 ];
 
 export const avionicsData = [
-  '4 Honeywell DU-1310 EFIS',
-  '3 Honeywell CDU',
-  '3 Honeywell LASEREF VI IRS',
-  '2 Honeywell GPS',
-  '2 Honeywell DM-855 DME',
-  '1 Gulfstream HGS-6250 HUD',
-  '1 KollsmaEVS',
-  '2 Honeywell DF-855 ADF',
-  '2 Honeywell AH-1000 AHRS',
-  '1 Honeywell NC-860A VHF COM',
-  '2 Honeywell TR-865A VHF COM',
-  '2 Collins HF-9034A w/SECAL HF COM',
-  '1 Honeywell MCS-7120 SATCOM',
-  '1 Honeywell TR-1 WRADAR',
-  '2 Honeywell Mode S XPNDR',
-  '1 Honeywell TCAS II w/change7.1 TCAS',
-  '2 Honeywell EGP-100 GPWS',
-  '1 Universal CVR-120R CVR',
-  '1 Universal FDR-25 FDR',
-  '1 Honeywell LP-860 LSS',
+  ' Audio panel',
+  'NAV / COMM / GPS',
+  'ADS-B traffic',
+  'ADS-weather',
+  '1-pad mini charts etc',
+  'DME',
+  'HSI',
+  'Autopil OT',
+  '7000BT',
+  'Avidyne IFD 550 WAAS GPS / NAV / COMM',
+  'Avidyne IFD 440 WAAS GPS / NAV / COMM',
+  'Subscription free ads-B traffic',
+  'Subscription free ads-B weather',
+  'Integrated panel mounted I-pad mini',
+  'Garmin 345 w/ADSB In/ Out / Traffic / FIS B',
+  'King KN 63 DME with Nav 1 & 2 and DME Hold',
+  'King KCS 55A Slaved HSI system',
+  'ALT Preselect',
+  'Yaw Damp/GPSS steering',
 ];
 
 const LatestAircraftFour = () => {
@@ -62,12 +50,12 @@ const LatestAircraftFour = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            2007 Agusta A119
+            2005 Bonanza A36 for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Please Email
+            Price: $519,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
@@ -104,7 +92,7 @@ const LatestAircraftFour = () => {
               <h4>Proudly presented by</h4>
               <p>
                 <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
+                  Carolina Aircraft, Inc.
                 </Link>
               </p>
               <h5>Mabel Matthew</h5>
@@ -112,21 +100,21 @@ const LatestAircraftFour = () => {
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2005</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                <p>North Carolina (USA)</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Beechcraft</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
+                    E-3588
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
@@ -134,13 +122,13 @@ const LatestAircraftFour = () => {
                 <p>Registration No:</p>
                 <p>
                   <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
+                    N136EU
                   </Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>3411 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
@@ -162,15 +150,16 @@ const LatestAircraftFour = () => {
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>TTSN: 3,411</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>10-550 300 Horsepower Engine</p>
+            <p>SMOH: 100 (Oct 2018)</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-            <h4>APU Details</h4>
-            <p>APU on Honeywell MSP</p>
+            <h4>Prop Details</h4>
+            <p>3 blade Propeller</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
         </Styles.AircraftTrendingDetailsFeaturesRightContainer>
         <Styles.AircraftTrendingDetailsSummary>
