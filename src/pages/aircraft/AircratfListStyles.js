@@ -14,7 +14,7 @@ export const AircraftListItemsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   margin: 20px auto;
 
