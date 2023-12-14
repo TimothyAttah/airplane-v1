@@ -177,10 +177,10 @@ const LatestAircraftFour = () => {
           </div>
           <div>
             <h2>Features/Options</h2>
-            <p>
-              Owner prepared to close in 2023 and escrow agreed funds for an
-              ARCS in early 2024.
-            </p>
+            <p>ADS-B Out Equipped</p>
+            <p>Avionics Dispatch Switch</p>
+            <p>Artex C406N ELT</p>
+            <p>Garmin GPS-500w</p>
           </div>
         </Styles.AircraftTrendingDetailsSummary>
       </Styles.AircraftTrendingDetailsFeaturesContainer>

@@ -1,7 +1,7 @@
 import { LATEST_AIRCRAFT } from '../types';
 
 import jet9 from '../../assets/130492_01_CitationBravo_sn550-0993-Ext1.jpg';
-import jet10 from '../../assets/jet10.jpg';
+import jet10 from '../../assets/bonaza-2.jpg';
 import jet11 from '../../assets/circus1.jpg';
 import jet12 from '../../assets/bonaza-1.jpg';
 import jet13 from '../../assets/CitationCJ2-1.jpg';
@@ -15,14 +15,14 @@ const initialState = {
       jetName: '2001 Citation Bravo',
       jetType: 'Skylane',
       jetPix: jet9,
-      jetPrice: '$489,000,000',
+      jetPrice: '$38,500,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a1',
     },
     {
-      jetName: '1967 Cessna 172-180 HP',
+      jetName: '2005 Cessna 172-180 HP',
       jetType: 'Floatplane',
       jetPix: jet10,
-      jetPrice: '$103,000,000',
+      jetPrice: '$47,900,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a2',
     },
     {
@@ -50,7 +50,7 @@ const initialState = {
       jetName: ' 2012 Grand New 109SP',
       jetType: 'Warbirds',
       jetPix: jet14,
-      jetPrice: '$489,000,000',
+      jetPrice: '$89,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a6',
     },
     {

@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+
+import bonaza1 from '../../../../assets/bonaza-2.jpg';
+import bonaza2 from '../../../../assets/bonaza-7.jpg';
+import bonaza3 from '../../../../assets/bonaza-8.jpg';
+import bonaza4 from '../../../../assets/bonaza-10.jpg';
+import bonaza5 from '../../../../assets/bonaza-11.jpg';
+import bonaza6 from '../../../../assets/bonaza-12.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -62,22 +65,23 @@ const LatestAircraftTwo = () => {
       <div>
         <Styles.AircraftTrendingDetailsTitle>
           <FadeIn delay={0.2} direction='right' fullWidth padding>
-            1967 Cessna 172-180 HP
+            2005 Cessna 172-180 HP for sale
           </FadeIn>
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $103,000
+            Price: $47,900,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={bonaza1} />,
+          <ImgComponent src={bonaza2} />,
+          <ImgComponent src={bonaza3} />,
+          <ImgComponent src={bonaza4} />,
+          <ImgComponent src={bonaza5} />,
+          <ImgComponent src={bonaza6} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
@@ -98,53 +102,47 @@ const LatestAircraftTwo = () => {
           </>
         )}
         <Styles.AircraftTrendingDetailsMainWrapper>
-          <h3>2019 Gulfstream G650ER</h3>
+          <h3> 2005 Cessna 172-180 HP</h3>
           <Styles.AircraftTrendingMainDetailsBox>
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
-                </Link>
+                <Link to='#'>Carolina Aircraft, Inc.</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Year:</p>
-                <p>2019</p>
+                <p>2005</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Location:</p>
-                <p>China</p>
+                {/* <p>China</p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Manufacturer:</p>
-                <p>Gulfstream Aerospace</p>
+                <p>Beechcraft</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
-                <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    6354
-                  </Link>
-                </p>
+                {/* <p>
+                  <Link to='#'>E-3589</Link>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
-                <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    B-603R
-                  </Link>
-                </p>
+                {/* <p>
+                  <Link to='#'>B-603R</Link>
+                </p> */}
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Total Time:</p>
-                <p>582 hrs</p>
+                <p>3411 hrs</p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> $103,000</h6>
+                <h6> $47,900,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
@@ -162,18 +160,19 @@ const LatestAircraftTwo = () => {
         <Styles.AircraftTrendingDetailsFeaturesRightContainer>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Airframe</h4>
-            <p>582 Hours TT</p>
+            <p>TTSN: 3,421</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
             <h4>Engine(s)</h4>
-            <p>Engines on Rolls-Royce Corporate Care</p>
+            <p>10-550 300 Horsepower Engine</p>
+            <p>SMOH: 100 (Oct 2018)</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
           <Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
-            <h4>APU Details</h4>
-            <p>APU on Honeywell MSP</p>
+            <h4>Prop Details</h4>
+            <p>3 blade Propeller</p>
           </Styles.AircraftTrendingDetailsFeaturesRightDetailsBox>
         </Styles.AircraftTrendingDetailsFeaturesRightContainer>
-        <Styles.AircraftTrendingDetailsSummary>
+        {/* <Styles.AircraftTrendingDetailsSummary>
           <h2>Avionics</h2>
           <ul>
             {avionicsData.map((s, i) => (
@@ -191,7 +190,7 @@ const LatestAircraftTwo = () => {
               ARCS in early 2024.
             </p>
           </div>
-        </Styles.AircraftTrendingDetailsSummary>
+        </Styles.AircraftTrendingDetailsSummary> */}
       </Styles.AircraftTrendingDetailsFeaturesContainer>
     </Styles.AircraftTrendingDetailsContainer>
   );
