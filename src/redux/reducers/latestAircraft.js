@@ -15,7 +15,7 @@ const initialState = {
       jetName: '2001 Citation Bravo',
       jetType: 'Skylane',
       jetPix: jet9,
-      jetPrice: '$38,500,000',
+      jetPrice: '$48,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a1',
     },
     {
