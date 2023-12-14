@@ -133,6 +133,20 @@ export const AircraftTrendingContactsBox = styled.div`
   gap: 10px;
   margin: 15px 0;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 20px 0;
+  border-radius: 2px;
+  transition: 0.5s all;
+
+  :hover {
+    h2 {
+      font-size: 32px;
+    }
+    svg {
+      font-size: 32px;
+    }
+  }
 
   h2 {
     font-size: 30px;
