@@ -14,6 +14,8 @@ export const SliderContainer = styled.div`
   overflow: hidden;
   /* background: black; */
   margin: auto;
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  z-index: 1;
 
   button {
     position: absolute;

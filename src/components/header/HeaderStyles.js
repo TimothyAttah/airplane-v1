@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MainHeaderContainer = styled.header`
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: 80px;
   left: 0;
@@ -10,9 +10,10 @@ export const MainHeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 999px;
-  margin-bottom: 50px;
-  /* border: 2px solid red; */
+  padding: 20px;
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  background: #fff;
+  z-index: 99;
 
   h1 {
     font-size: 40px;

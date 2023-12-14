@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export const SideBar = styled(motion.div)`
   position: absolute;
   right: 0;
-  top: 0;
+  top: 0px;
   width: 300px;
   height: 100vh;
   background: ${({ theme }) => theme.colors.bgLight};
@@ -12,7 +12,9 @@ export const SideBar = styled(motion.div)`
   padding: 10px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  box-shadow: 12px 12px 12px rgba(0, 0, 0, #000);
+  /* box-shadow: 12px 12px 12px rgba(0, 0, 0, #000); */
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  z-index: 999;
 `;
 
 export const SideBarNavLinks = styled.ul`

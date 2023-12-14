@@ -35,99 +35,101 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/aircrafts-for-sale' element={<AircraftLists />} />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b81/details'
-            element={<TrendingAircraftOne />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b82/details'
-            element={<TrendingAircraftTwo />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b83/details'
-            element={<TrendingAircraftThree />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b84/details'
-            element={<TrendingAircraftFour />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b85/details'
-            element={<TrendingAircraftFive />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b86/details'
-            element={<TrendingAircraftSix />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b87/details'
-            element={<TrendingAircraftSeven />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b88/details'
-            element={<TrendingAircraftEight />}
-          />
+        <div style={{ marginTop: '150px' }}>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/aircrafts-for-sale' element={<AircraftLists />} />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b81/details'
+              element={<TrendingAircraftOne />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b82/details'
+              element={<TrendingAircraftTwo />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b83/details'
+              element={<TrendingAircraftThree />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b84/details'
+              element={<TrendingAircraftFour />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b85/details'
+              element={<TrendingAircraftFive />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b86/details'
+              element={<TrendingAircraftSix />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b87/details'
+              element={<TrendingAircraftSeven />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24410089-73f7-4d02-87ee-4f5198fe73b88/details'
+              element={<TrendingAircraftEight />}
+            />
 
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a1/latest/details'
-            element={<LatestAircraftOne />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a2/latest/details'
-            element={<LatestAircraftTwo />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a3/latest/details'
-            element={<LatestAircraftThree />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a4/latest/details'
-            element={<LatestAircraftFour />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a5/latest/details'
-            element={<LatestAircraftFive />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a6/latest/details'
-            element={<LatestAircraftSix />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a7/latest/details'
-            element={<LatestAircraftSeven />}
-          />
-          <Route
-            path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a8/latest/details'
-            element={<LatestAircraftEight />}
-          />
-          <Route
-            path='/aircrafts-for-sale/:jetId/latest/details'
-            element={<AircraftLatestDetails />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a1/details'
-            element={<HomeAircraftOne />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a2/details'
-            element={<HomeAircraftTwo />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a3/details'
-            element={<HomeAircraftThree />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a4/details'
-            element={<HomeAircraftFour />}
-          />
-          <Route
-            path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a5/details'
-            element={<HomeAircraftFive />}
-          />
-        </Routes>
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a1/latest/details'
+              element={<LatestAircraftOne />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a2/latest/details'
+              element={<LatestAircraftTwo />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a3/latest/details'
+              element={<LatestAircraftThree />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a4/latest/details'
+              element={<LatestAircraftFour />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a5/latest/details'
+              element={<LatestAircraftFive />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a6/latest/details'
+              element={<LatestAircraftSix />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a7/latest/details'
+              element={<LatestAircraftSeven />}
+            />
+            <Route
+              path='/aircrafts-for-sale/3c0cc1ba-320f-4c16-b976-c1c867a7650a8/latest/details'
+              element={<LatestAircraftEight />}
+            />
+            <Route
+              path='/aircrafts-for-sale/:jetId/latest/details'
+              element={<AircraftLatestDetails />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a1/details'
+              element={<HomeAircraftOne />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a2/details'
+              element={<HomeAircraftTwo />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a3/details'
+              element={<HomeAircraftThree />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a4/details'
+              element={<HomeAircraftFour />}
+            />
+            <Route
+              path='/aircrafts-for-sale/24510089-73f7-4d02-87ee-4f5198fe73a5/details'
+              element={<HomeAircraftFive />}
+            />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
       <ToastContainer />

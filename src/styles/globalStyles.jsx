@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
     color: #212529;
     text-align: left;
+    z-index: 1px;
   }
 
   html,
