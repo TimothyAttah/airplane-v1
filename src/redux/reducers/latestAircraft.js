@@ -1,12 +1,12 @@
 import { LATEST_AIRCRAFT } from '../types';
 
-import jet9 from '../../assets/jet9.jpg';
+import jet9 from '../../assets/130492_01_CitationBravo_sn550-0993-Ext1.jpg';
 import jet10 from '../../assets/jet10.jpg';
-import jet11 from '../../assets/jet11.jpg';
+import jet11 from '../../assets/circus1.jpg';
 import jet12 from '../../assets/bonaza-1.jpg';
 import jet13 from '../../assets/CitationCJ2-1.jpg';
-import jet14 from '../../assets/jet14.jpg';
-import jet15 from '../../assets/jet15.jpg';
+import jet14 from '../../assets/130489_A109SP_-_SN_22285-NWEB.jpg';
+import jet15 from '../../assets/pix1.JPG';
 import jet16 from '../../assets/gulf-2023.png';
 
 const initialState = {
@@ -26,10 +26,10 @@ const initialState = {
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a2',
     },
     {
-      jetName: '1974 Cessna 172',
+      jetName: ' 2006 Cirrus SR22 ',
       jetType: 'Single Engine Aircraft',
       jetPix: jet11,
-      jetPrice: 'Please Email',
+      jetPrice: '$31,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a3',
     },
     {
@@ -47,17 +47,17 @@ const initialState = {
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a5',
     },
     {
-      jetName: '1982 Nanchang CJ-6A',
+      jetName: ' 2012 Grand New 109SP',
       jetType: 'Warbirds',
       jetPix: jet14,
-      jetPrice: 'Please Email',
+      jetPrice: '$489,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a6',
     },
     {
-      jetName: '2019 Cirrus SR22T G6',
+      jetName: '2012 Challenger 300',
       jetType: 'GTS',
       jetPix: jet15,
-      jetPrice: '$175,000,000',
+      jetPrice: '$75,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a7',
     },
     {

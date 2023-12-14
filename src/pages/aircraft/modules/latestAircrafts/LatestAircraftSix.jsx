@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+
+import A109SP1 from '../../../../assets/130489_A109SP_-_SN_22285-NWEB.jpg';
+import A109SP2 from '../../../../assets/130489_A109SP_-_SN_22285-NWEB2.jpg';
+import A109SP3 from '../../../../assets/130489_A109SP_-_SN_22285-NWEB3.jpg';
+import A109SP4 from '../../../../assets/130489_A109SP_-_SN_22285-NWEB4.jpg';
+import A109SP5 from '../../../../assets/130489_A109SP_-_SN_22285-NWEB5.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -69,24 +71,24 @@ const LatestAircraftSix = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            $489,000
+            Price: $489,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={A109SP1} />,
+          <ImgComponent src={A109SP2} />,
+          <ImgComponent src={A109SP3} />,
+          <ImgComponent src={A109SP4} />,
+          <ImgComponent src={A109SP5} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Mabel Matthew</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -105,11 +107,9 @@ const LatestAircraftSix = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  International Aviation Marketing, Ltd
-                </Link>
+                <Link to='#'>International Aviation Marketing, Ltd</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -127,9 +127,7 @@ const LatestAircraftSix = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    22285
-                  </Link>
+                  <Link to='#'>22285</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -146,7 +144,7 @@ const LatestAircraftSix = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> $489,000</h6>
+                <h6> $489,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>

@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as Styles from './AircraftTrendingDetails';
 import { FadeIn } from '../../../../components/fadeIn/FadeIn';
-import gulf6501 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int11.jpg';
-import gulf6502 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int12.jpg';
-import gulf6503 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int2.jpg';
-import gulf6504 from '../../../../assets/129776_19_GulfstreamG650ER_snNA-Int4.jpg';
-import gulf6508 from '../../../../assets/129776_Screen_Shot_2023-11-08_at_1.41.35_PM.png';
+
+import circus1 from '../../../../assets/circus1.jpg';
+import circus2 from '../../../../assets/circus2.jpg';
+import circus3 from '../../../../assets/circus3.jpg';
+import circus4 from '../../../../assets/circus4.jpg';
+import circus5 from '../../../../assets/circus5.jpg';
+
 import Slider from '../../../../components/slider/Slider';
 import { ImgComponent } from '../../../../components/slider/ImgComponent';
 import { Backdrop } from '../../../../components/Backdrop';
@@ -61,24 +63,24 @@ const LatestAircraftThree = () => {
         </Styles.AircraftTrendingDetailsTitle>
         <Styles.AircraftTrendingDetailsPrice>
           <FadeIn delay={0.4} direction='left' fullWidth padding>
-            Price: $349,000,000
+            Price: $31,000,000
           </FadeIn>
         </Styles.AircraftTrendingDetailsPrice>
       </div>
       <Slider
         imgArr={[
-          <ImgComponent src={gulf6501} />,
-          <ImgComponent src={gulf6502} />,
-          <ImgComponent src={gulf6503} />,
-          <ImgComponent src={gulf6504} />,
-          <ImgComponent src={gulf6508} />,
+          <ImgComponent src={circus1} />,
+          <ImgComponent src={circus2} />,
+          <ImgComponent src={circus3} />,
+          <ImgComponent src={circus4} />,
+          <ImgComponent src={circus5} />,
         ]}
       />
       <Styles.AircraftTrendingContactFeaturesBox>
         <Styles.AircraftTrendingContactBox>
           <h3>Contact Seller</h3>
           <p>Have a question? Send the seller a quick message.</p>
-          <h4>Mabel Matthew</h4>
+          <h4>Sullivan Stapleton</h4>
 
           <Styles.AircraftTrendingContactsBox onClick={() => setOpenForm(true)}>
             <RiMailLine />
@@ -97,11 +99,9 @@ const LatestAircraftThree = () => {
             <Styles.AircraftTrendingMainDetailsRightBox>
               <h4>Proudly presented by</h4>
               <p>
-                <Link to='https://www.globalair.com/aircraft-for-sale/listings-by-seller/aviatrade-incorporated?brokerid=10748'>
-                  Aviatrade Incorporated
-                </Link>
+                <Link to='#'>Aviatrade Incorporated</Link>
               </p>
-              <h5>Mabel Matthew</h5>
+              <h5>Sullivan Stapleton</h5>
             </Styles.AircraftTrendingMainDetailsRightBox>
             <Styles.AircraftTrendingMainDetailsLeftBox>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -119,17 +119,13 @@ const LatestAircraftThree = () => {
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Serial Number:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?serial=6354'>
-                    1865
-                  </Link>
+                  <Link to='#'>1865</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <p>Registration No:</p>
                 <p>
-                  <Link to='https://www.globalair.com/ac-reg/search.aspx?regnum=B-603R'>
-                    N411B
-                  </Link>
+                  <Link to='#'>N411B</Link>
                 </p>
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
@@ -138,7 +134,7 @@ const LatestAircraftThree = () => {
               </Styles.AircraftTrendingMainDetailsOptions>
               <Styles.AircraftTrendingMainDetailsOptions>
                 <h6>Price:</h6>
-                <h6> $349,000,000</h6>
+                <h6> $31,000,000</h6>
               </Styles.AircraftTrendingMainDetailsOptions>
             </Styles.AircraftTrendingMainDetailsLeftBox>
           </Styles.AircraftTrendingMainDetailsBox>
