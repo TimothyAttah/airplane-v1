@@ -22,7 +22,7 @@ const initialState = {
       jetName: '2005 Cessna 172-180 HP',
       jetType: 'Floatplane',
       jetPix: jet10,
-      jetPrice: '$47,900,000',
+      jetPrice: '$30,000,000',
       jetId: '3c0cc1ba-320f-4c16-b976-c1c867a7650a2',
     },
     {
